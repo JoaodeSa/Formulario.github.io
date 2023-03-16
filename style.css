@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+input {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+button {
+  display: block;
+  margin-top: 10px;
+}
+.checkbox,
+.radio {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  margin-top: 20px;
+  align-items: center;
+}
+.checkbox label,
+.radio label {
+  display: inline-block;
+  margin: 0px;
+}
+
+.checkbox input,
+.radio input {
+  width: 20px;
+  height: 20px;
+  margin: 10px 0px;
+}
+
+select {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+textarea {
+  font-size: 1.2rem;
+  font-family: arial;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin-top: 40px;
+  background: #caf;
+  color: #217;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
